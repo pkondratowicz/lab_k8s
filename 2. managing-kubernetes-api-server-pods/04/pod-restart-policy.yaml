@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hello-world-onfailure-pod
+  namespace: managing-pods
+spec:
+  containers:
+  - name: hello-world
+    image: psk8s.azurecr.io/hello-app:1.0
+  restartPolicy: OnFailure
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hello-world-never-pod
+spec:
+  containers:
+  - name: hello-world
+    image: psk8s.azurecr.io/hello-app:1.0
+  restartPolicy: Never
