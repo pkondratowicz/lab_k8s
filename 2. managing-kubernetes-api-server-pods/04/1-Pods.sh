@@ -1,6 +1,3 @@
-ssh aen@c1-cp1
-cd ~/content/course/04/demos/
-
 #Start up kubectl get events --watch and background it.
 kubectl get events --watch &
 

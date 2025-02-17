@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: multicontainer-pod
-  namespace: managing-pods
+  namespace: default
 spec:
   containers:
   - name: producer
