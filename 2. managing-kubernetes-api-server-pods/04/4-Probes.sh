@@ -1,6 +1,3 @@
-ssh aen@c1-cp1
-cd ~/content/course/04/demos/
-
 #Start a watch to see the events associated with our probes.
 kubectl get events --watch &
 clear

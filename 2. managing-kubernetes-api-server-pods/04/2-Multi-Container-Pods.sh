@@ -1,6 +1,3 @@
-ssh aen@c1-cp1
-cd ~/content/course/04/demos/
-
 #Review the code for a multi-container pod, the volume webcontent is an emptyDir...essentially a temporary file system.
 #This is mounted in the containers at mountPath, in two different locations inside the container.
 #As producer writes data, consumer can see it immediatly since it's a shared file system.

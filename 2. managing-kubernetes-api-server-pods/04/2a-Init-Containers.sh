@@ -1,7 +1,3 @@
-ssh aen@c1-cp1
-cd ~/content/course/04/demos/
-
-
 #Use a watch to watch the progress
 #Each init container run to completion then the app container will start and the Pod status changes to Running.
 kubectl get pods --watch &
