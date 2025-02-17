@@ -1,15 +1,8 @@
-#Setup 
-
 #0 - Disable swap, swapoff then edit your fstab removing any entry for swap partitions
 #You can recover the space with fdisk. You may want to reboot to ensure your config is ok. 
 
 sudo vi /etc/fstab
 sudo swapoff -a
-
-
-###IMPORTANT####
-#I will keep the code in the course downloads up to date with the latest method.
-################
 
 
 #0 - Install Packages 
@@ -56,9 +49,6 @@ grep 'SystemdCgroup = true' /etc/containerd/config.toml
 
 #Restart containerd with the new configuration
 sudo systemctl restart containerd
-
-
-
 
 #Install Kubernetes packages - kubeadm, kubelet and kubectl
 #Add k8s.io's apt repository gpg key, this will likely change for each version of kubernetes release. 

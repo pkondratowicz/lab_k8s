@@ -1,6 +1,4 @@
 #Log into the control plane node c1-cp1/master node c1-master1 
-ssh aen@c1-cp1
-
 
 #Listing and inspecting your cluster...helpful for knowing which cluster is your current context
 kubectl cluster-info
