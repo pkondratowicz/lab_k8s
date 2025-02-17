@@ -1,6 +1,5 @@
-#Demo requires nodes c1-cp1, c1-node1, c1-node2 and c1-node3
-ssh aen@c1-cp1
-cd ~/content/course/03/demos
+#create namesace playground
+kubectl create namespace playground
 
 #Create a collection of pods with labels assinged to each
 more CreatePodsWithLabels.yaml

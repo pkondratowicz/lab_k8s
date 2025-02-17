@@ -1,7 +1,3 @@
-ssh aen@c1-cp1
-cd ~/content/course/02/demos
-
-
 #API Discovery
 #Get information about our current cluster context, ensure we're logged into the correct cluster.
 kubectl config get-contexts

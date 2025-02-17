@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: nginx-pod-ssd
-  namespace: pawel-labels
+  namespace: playground
 spec:
   containers:
   - name: nginx
@@ -16,7 +16,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: nginx-pod-gpu
-  namespace: pawel-labels
+  namespace: playground
 spec:
   containers:
   - name: nginx
@@ -30,7 +30,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: nginx-pod
-  namespace: pawel-labels
+  namespace: playground
 spec:
   containers:
   - name: nginx

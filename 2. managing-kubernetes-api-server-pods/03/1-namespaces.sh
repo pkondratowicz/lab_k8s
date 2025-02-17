@@ -1,6 +1,3 @@
-ssh aen@c1-cp1
-cd ~/content/course/03/demos
-
 #Get a list of all the namespaces in our cluster
 kubectl get namespaces
 
